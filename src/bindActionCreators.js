@@ -2,7 +2,15 @@
  * Created by maoshuchen on 9/28/2016.
  */
 function bindActionCreator(options, actionCreator, dispatch) {
-  return (...args) => dispatch(actionCreator(...args)(options))
+  return (...args) => {
+    const realActionCreator = actionCreator(...args);
+    if(typeof realActionCreator != 'function'){
+      throw new Error(
+        'your actionCreator is not function, make sure your action return is defined as options => {} or options => (dispatch, getState) => {}'
+      )
+    }
+    dispatch(realActionCreator(options));
+  };
 }
 
 export default function bindActionCreators(options, actionCreators, dispatch) {
