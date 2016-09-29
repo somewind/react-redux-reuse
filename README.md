@@ -29,6 +29,7 @@ npm install --save-dev react-redux-reuse
 A completed example is combine `counter` and `todos` app in one. Those apps is examples from [Redux](https://github.com/reactjs/redux) , which used `React` also.
 
 [Example](https://github.com/somewind/react-redux-reuse/tree/master/examples)
+
 ![demo](img/demo.png)
 
 ## Code from Example
