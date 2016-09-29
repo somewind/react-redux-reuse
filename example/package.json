@@ -13,7 +13,8 @@
     "react-redux": "^4.4.5",
     "redux": "^3.5.2",
     "redux-thunk": "^2.1.0",
-    "redux-sword": "^1.0.5"
+    "redux-sword": "^1.0.5",
+    "react-redux-reuse":"^1.0.0"
   },
   "scripts": {
     "start": "react-scripts start",

@@ -24,10 +24,12 @@ npm install --save-dev react-redux-reuse
 - [React-Redux](https://github.com/reactjs/react-redux) 
 - [Redux-Thunk](https://github.com/gaearon/redux-thunk) 
 - [Redux-Sword](https://github.com/somewind/redux-sword) (About `Redux-Sword`, you can learn from [Here](https://github.com/somewind/redux-sword))
+   
 
 A completed example is combine `counter` and `todos` app in one. Those apps is examples from [Redux](https://github.com/reactjs/redux) , which used `React` also.
 
-- [Example](https://github.com/somewind/react-redux-reuse/tree/master/examples)
+[Example](https://github.com/somewind/react-redux-reuse/tree/master/examples)
+![demo](img/demo.png)
 
 ## Code from Example
 
