@@ -10,7 +10,7 @@ export default function connectReuse(actions, mapAction) {
       let mapState = actions;
       if(typeof actions == 'object'){
         mapState = (state) =>{
-          return {...state[options.name]};
+          return {...state[options.name], options};
         };
         mapAction = (dispatch, getState) =>{
           return {actions: bindActionCreators(options, {...actions}, dispatch)};

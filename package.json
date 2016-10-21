@@ -1,6 +1,6 @@
 {
   "name": "react-redux-reuse",
-  "version": "1.0.2",
+  "version": "1.0.4",
   "description": "Use it to create reusable components for React-Redux project.",
   "main": "lib/index.js",
   "files": [
